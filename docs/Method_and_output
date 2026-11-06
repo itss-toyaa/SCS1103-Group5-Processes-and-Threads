@@ -1,0 +1,45 @@
+(f) Method and Output
+
+Method:
+Our group will develop a Python-based booking handler simulator to
+investigate the performance differences between processes and
+threads when handling multiple booking requests.
+We will use the Azure Functions 2021 trace dataset as our
+source of request execution durations. Each function invocation 
+will be treated as a simulated booking request.
+The experiment will involve three approaches:
+
+1. Single-threaded execution: Requests will be processed one at
+a time to establish a baseline.
+2. Multithreading: Multiple booking requests will be handled 
+concurrently using Python's ThreadPoolExecutor.
+3. Multiprocessing: Multiple booking requests will be handled
+simultaneously using Python's ProcessPoolExecutor.
+
+We will use Python's standard libraries, including 
+"concurrent.futures" and "time", to implement and
+measure the different approaches. The "psutil" library will
+be used to monitor CPU and memory usage, while Matplotlib will
+be used to generate graphs.
+Each approach will be tested using the same number of requests
+and different worker configurations. We will repeat the 
+experiments to improve the reliability of our results.
+
+Output:
+
+The project will produce:
+
+- A functional Python booking handler simulator.
+- A CSV file containing the benchmark results.
+- Tables comparing execution time, throughput,
+CPU usage and memory consumption.
+- Graphs illustrating the performance differences
+between single-threading, multithreading and 
+multiprocessing.
+- A final comparison identifying which approach
+performs better under the tested conditions.
+
+All experiments will be conducted locally on a
+typical student laptop using free software,
+without requiring paid services or specialised
+hardware.
