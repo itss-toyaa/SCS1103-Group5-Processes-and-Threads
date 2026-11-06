@@ -40,9 +40,13 @@ Part B
 Does a thread-based booking handler process booking requests faster and with lower waiting times than a process-based booking handler on a student laptop when both handle the same booking workload?
 3. Aim
 4. 
-To compare a thread-based and a process-based booking handler using the same workload derived from the Azure Functions 2021 trace and determine which approach processes bookings faster on a typical student laptop.
-5. Objectives
-6. 
+To compare a thread-based and a process-based booking handler using the same
+
+ Part c)
+
+Modern applications, including online booking systems, must handle multiple user requests efficiently and reliably. When several requests arrive simultaneously, the processing method used can affect response time, system throughput and resource consumption. These challenges are particularly important on student laptops and other low-spec computers, where CPU capacity and available memory are http://limited.Therefore, this research is important because it will establish, through practical benchmarking, whether multithreading or multiprocessing provides measurable performance improvements over sequential processing. The findings will help identify a suitable request-processing approach for applications operating on computers with limited hardware resources, while consideringworkload derived from the Azure Functions 2021 trace and determine which approach processes bookings faster on a typical student laptop.
+6. Objectives
+7. 
 To develop both a thread-based and a process-based booking handler in Python capable of handling 10, 20, or more concurrent booking requests.
 To test both booking handlers using three different workload sizes derived from the Azure Functions 2021 trace to determine how each approach scales as the number of booking requests increases.
 To evaluate and compare the performance of threads and processes by measuring execution time, CPU usage, and memory consumption.
