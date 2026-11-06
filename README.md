@@ -3,7 +3,7 @@
 SCS1103-Group5-Processes and Threads 
 
 ## Group 5 Members
-- Tinevimbo Muvirimi. N02657072J (Write)
+- Tinevimbo Muvirimi. N02657072J 
 - Shekinah Ndlovu. N02654189F
 - Humphrey M Ndodha N02641211X
 - Latoya L Judah N02646873G
